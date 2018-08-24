@@ -1,0 +1,6 @@
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\bin\Debug\CoffeeShop.Domain.dll
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\bin\Debug\CoffeeShop.Domain.pdb
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.dll
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.pdb
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.csprojAssemblyReference.cache
