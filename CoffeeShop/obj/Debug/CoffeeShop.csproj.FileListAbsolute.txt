@@ -98,3 +98,7 @@ C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.dll
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.pdb
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop\bin\EntityFramework.SqlServer.dll
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop\bin\CoffeeShop.Domain.dll.config

@@ -12,3 +12,9 @@ C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Da
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.csproj.CopyComplete
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.dll
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.pdb
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\bin\Debug\CoffeeShop.Domain.dll.config
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.Migrations.InitialCreate.resources
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.csproj.GenerateResource.cache
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.Migrations.ItemNameisnowanindexandmustbeunique.resources
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.Migrations.ItemNameindexattempt2.resources
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.Migrations.ItemNameindexattempt3.resources

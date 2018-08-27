@@ -3,4 +3,10 @@ C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\bin\Debug\CoffeeShop.
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.dll
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.pdb
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\bin\Debug\CoffeeShop.Domain.dll.config
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.csprojAssemblyReference.cache
+C:\Users\Jacob\source\gcrepos\CoffeeShop\CoffeeShop.Domain\obj\Debug\CoffeeShop.Domain.csproj.CopyComplete

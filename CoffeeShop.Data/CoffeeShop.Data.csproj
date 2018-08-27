@@ -52,6 +52,23 @@
     <Compile Include="CoffeeShopInitializer.cs" />
     <Compile Include="Maps\ItemMap.cs" />
     <Compile Include="Maps\UserMap.cs" />
+    <Compile Include="Migrations\201808272114509_InitialCreate.cs" />
+    <Compile Include="Migrations\201808272114509_InitialCreate.Designer.cs">
+      <DependentUpon>201808272114509_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808272119484_Item Name is now an index and must be unique.cs" />
+    <Compile Include="Migrations\201808272119484_Item Name is now an index and must be unique.Designer.cs">
+      <DependentUpon>201808272119484_Item Name is now an index and must be unique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808272124283_Item Name index, attempt 2.cs" />
+    <Compile Include="Migrations\201808272124283_Item Name index, attempt 2.Designer.cs">
+      <DependentUpon>201808272124283_Item Name index, attempt 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808272200312_Item Name index, attempt 3.cs" />
+    <Compile Include="Migrations\201808272200312_Item Name index, attempt 3.Designer.cs">
+      <DependentUpon>201808272200312_Item Name index, attempt 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +80,20 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201808272114509_InitialCreate.resx">
+      <DependentUpon>201808272114509_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808272119484_Item Name is now an index and must be unique.resx">
+      <DependentUpon>201808272119484_Item Name is now an index and must be unique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808272124283_Item Name index, attempt 2.resx">
+      <DependentUpon>201808272124283_Item Name index, attempt 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808272200312_Item Name index, attempt 3.resx">
+      <DependentUpon>201808272200312_Item Name index, attempt 3.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

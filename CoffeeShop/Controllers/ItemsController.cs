@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using CoffeeShop.Data;
 using CoffeeShop.Domain.Models;
+using CoffeeShop.Helpers;
 
 namespace CoffeeShop.Controllers
 {
@@ -49,11 +51,22 @@ namespace CoffeeShop.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Name,Description,Quantity,Price")] Item item)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Items.Add(item);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    db.Items.Add(item);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (DbUpdateException ex)
+            {
+                if (ExceptionHelper.IsUniqueConstraintViolation(ex))
+                {
+                    ModelState.AddModelError("Name", $"The Name '{item.Name}' is already in use, please enter a different name.");
+                    return View(nameof(Create), item);
+                }
             }
 
             return View(item);
@@ -81,12 +94,24 @@ namespace CoffeeShop.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Id,Name,Description,Quantity,Price")] Item item)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(item).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    db.Entry(item).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
             }
+            catch (DbUpdateException ex)
+            {
+                if (ExceptionHelper.IsUniqueConstraintViolation(ex))
+                {
+                    ModelState.AddModelError("Name", $"The Name '{item.Name}' is already in use, please enter a different name.");
+                    return View(nameof(Create), item);
+                }
+            }
+
             return View(item);
         }
 
@@ -102,7 +127,8 @@ namespace CoffeeShop.Controllers
             {
                 return HttpNotFound();
             }
-            return View(item);
+            int realId = (int)id;
+            return DeleteConfirmed(realId);
         }
 
         // POST: Items/Delete/5
