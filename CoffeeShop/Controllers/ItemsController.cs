@@ -47,7 +47,7 @@ namespace CoffeeShop.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Quantity,Price")] Item item)
+        public ActionResult Create([Bind(Include = "Id,Name,Description,Quantity,Price")] Item item)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace CoffeeShop.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Quantity,Price")] Item item)
+        public ActionResult Edit([Bind(Include = "Id,Name,Description,Quantity,Price")] Item item)
         {
             if (ModelState.IsValid)
             {

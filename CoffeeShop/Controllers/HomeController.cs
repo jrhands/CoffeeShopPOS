@@ -17,19 +17,12 @@ namespace CoffeeShop.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return View(db.Items.ToList());
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Jojo's Joe. Owned and operated by Joseph Joestar.";
 
             return View();
         }

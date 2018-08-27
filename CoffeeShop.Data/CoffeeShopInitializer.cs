@@ -27,6 +27,7 @@ namespace CoffeeShop.Data
                     {
                         Id = 1,
                         Name = "Veranda Blend",
+                        Description = "Mellow & Soft",
                         Quantity = 1000,
                         Price = 5,
                         Users = new List<User>(){user}
@@ -35,6 +36,7 @@ namespace CoffeeShop.Data
                     {
                         Id = 2,
                         Name = "Breakfast Blend",
+                        Description = "Bright & Tangy",
                         Quantity = 1000,
                         Price = 5,
                         Users = new List<User>()
@@ -43,6 +45,7 @@ namespace CoffeeShop.Data
                     {
                         Id = 3,
                         Name = "Pike Place Roast",
+                        Description = "Smooth & Balanced",
                         Quantity = 1000,
                         Price = 5,
                         Users = new List<User>()
@@ -51,6 +54,7 @@ namespace CoffeeShop.Data
                     {
                         Id = 4,
                         Name = "House Blend",
+                        Description = "Rich & Lively",
                         Quantity = 1000,
                         Price = 5,
                         Users = new List<User>()
@@ -59,6 +63,7 @@ namespace CoffeeShop.Data
                     {
                         Id = 5,
                         Name = "Sumatra",
+                        Description = "Earthy & Herbal",
                         Quantity = 1000,
                         Price = 5,
                         Users = new List<User>()
@@ -67,6 +72,7 @@ namespace CoffeeShop.Data
                     {
                         Id = 6,
                         Name = "French Roast",
+                        Description = "Intense & Smoky",
                         Quantity = 1000,
                         Price = 5,
                         Users = new List<User>()
